@@ -1,0 +1,41 @@
+C:\Users\quant\source\repos\MyGYM\MyGYM\bin\Debug\MyGYM.exe.config
+C:\Users\quant\source\repos\MyGYM\MyGYM\bin\Debug\MyGYM.exe
+C:\Users\quant\source\repos\MyGYM\MyGYM\bin\Debug\MyGYM.pdb
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.csproj.AssemblyReference.cache
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.Form1.resources
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.Properties.Resources.resources
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.csproj.GenerateResource.cache
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.csproj.CoreCompileInputs.cache
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.exe
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.pdb
+C:\Users\quant\source\repos\MyGYM\MyGYM\bin\Debug\Guna.UI2.dll
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.Form2.resources
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.Form3.resources
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.Form4.resources
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.Form5.resources
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.Form6.resources
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.Form7.resources
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.Form8.resources
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.Form9.resources
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.Form10.resources
+C:\Users\quant\source\repos\MyGYM\MyGYM\obj\Debug\MyGYM.Form11.resources
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\bin\Debug\MyGYM.exe.config
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\bin\Debug\MyGYM.exe
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\bin\Debug\MyGYM.pdb
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\bin\Debug\Guna.UI2.dll
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\obj\Debug\MyGYM.csproj.AssemblyReference.cache
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\obj\Debug\MyGYM.Form1.resources
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\obj\Debug\MyGYM.Form11.resources
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\obj\Debug\MyGYM.Form2.resources
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\obj\Debug\MyGYM.Form3.resources
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\obj\Debug\MyGYM.Form4.resources
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\obj\Debug\MyGYM.Form5.resources
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\obj\Debug\MyGYM.Form6.resources
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\obj\Debug\MyGYM.Form7.resources
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\obj\Debug\MyGYM.Form8.resources
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\obj\Debug\MyGYM.Form9.resources
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\obj\Debug\MyGYM.Properties.Resources.resources
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\obj\Debug\MyGYM.csproj.GenerateResource.cache
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\obj\Debug\MyGYM.csproj.CoreCompileInputs.cache
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\obj\Debug\MyGYM.exe
+E:\Semestrul I\SGBD Cristina Tudose\Teme\MyGYM\MyGYM\obj\Debug\MyGYM.pdb
