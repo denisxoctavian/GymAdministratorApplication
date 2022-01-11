@@ -36,6 +36,7 @@ namespace MyGYM
             this.combobox_FilterBy = new Guna.UI2.WinForms.Guna2ComboBox();
             this.button_Clear = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.button_Export = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -156,6 +157,7 @@ namespace MyGYM
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.White;
+            this.guna2Panel1.Controls.Add(this.button_Export);
             this.guna2Panel1.Controls.Add(this.guna2ControlBox2);
             this.guna2Panel1.Controls.Add(this.button_Clear);
             this.guna2Panel1.Controls.Add(this.combobox_FilterBy);
@@ -172,6 +174,22 @@ namespace MyGYM
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(1072, 100);
             this.guna2Panel1.TabIndex = 1;
+            // 
+            // button_Export
+            // 
+            this.button_Export.BorderRadius = 5;
+            this.button_Export.CheckedState.Parent = this.button_Export;
+            this.button_Export.CustomImages.Parent = this.button_Export;
+            this.button_Export.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.button_Export.ForeColor = System.Drawing.Color.White;
+            this.button_Export.HoverState.Parent = this.button_Export;
+            this.button_Export.Location = new System.Drawing.Point(715, 18);
+            this.button_Export.Name = "button_Export";
+            this.button_Export.ShadowDecoration.Parent = this.button_Export;
+            this.button_Export.Size = new System.Drawing.Size(127, 36);
+            this.button_Export.TabIndex = 66;
+            this.button_Export.Text = "Export XML";
+            this.button_Export.Click += new System.EventHandler(this.button_Export_Click);
             // 
             // guna2ControlBox2
             // 
@@ -316,5 +334,6 @@ namespace MyGYM
         private System.Windows.Forms.Label label_Id;
         private Guna.UI2.WinForms.Guna2Panel openChildForm;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
+        private Guna.UI2.WinForms.Guna2Button button_Export;
     }
 }

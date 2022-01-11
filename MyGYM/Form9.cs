@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
@@ -8,13 +9,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
+using System.Xml.Linq;
 
 namespace MyGYM
 {
     public partial class Form9 : Form
     {
         public Form activeForm = null;
-        
+
         //Form9 constructor.
         public Form9()
         {
@@ -36,13 +39,13 @@ namespace MyGYM
             Global.daUsers.Fill(Global.ds, "Users");
             dgv_Members.DataSource = Global.ds;
             dgv_Members.DataMember = "Users";
-          
+
         }
 
         //This method loads items in ComboBoxes.
         public void LoadComboBox()
         {
-            
+
             combobox_FilterBy.Items.Add("Only trainers");
             combobox_FilterBy.Items.Add("Only members");
         }
@@ -62,7 +65,7 @@ namespace MyGYM
         //Filter combobox event - This event filter the DGV.
         private void combobox_FilterBy_SelectionChangeCommitted(object sender, EventArgs e)
         {
-            
+
 
 
             if (combobox_FilterBy.SelectedIndex == 0)
@@ -101,7 +104,7 @@ namespace MyGYM
             {
 
                 f4.label_PageTitle.Text = dgv_Members.Rows[e.RowIndex].Cells[0].Value.ToString();
-                f4.textbox_Name.Text = dgv_Members.Rows[e.RowIndex].Cells[1].Value.ToString()+" "+dgv_Members.Rows[e.RowIndex].Cells[2].Value.ToString();
+                f4.textbox_Name.Text = dgv_Members.Rows[e.RowIndex].Cells[1].Value.ToString() + " " + dgv_Members.Rows[e.RowIndex].Cells[2].Value.ToString();
                 f4.textbox_Email.Text = dgv_Members.Rows[e.RowIndex].Cells[5].Value.ToString();
                 f4.textbox_Password.Text = dgv_Members.Rows[e.RowIndex].Cells[4].Value.ToString();
                 if (Convert.ToBoolean(dgv_Members.Rows[e.RowIndex].Cells[6].Value) == true)
@@ -112,7 +115,7 @@ namespace MyGYM
                 {
                     f4.combobox_Sub.SelectedIndex = 1;
                 }
-                
+
                 f4.panel_Height.Visible = false;
                 f4.panel_MuscleMass.Visible = false;
                 f4.panel_Weight.Visible = false;
@@ -122,13 +125,19 @@ namespace MyGYM
                 f4.guna2Button1.Visible = true;
                 f4.button_UpdateDetails.Visible = false;
                 f4.picture_UserList.Visible = true;
-              
+
 
             }
             dgv_Members.Visible = false;
             guna2Panel1.Visible = false;
-            
+
             Global.openChildForm(f4, activeForm, openChildForm);
+        }
+
+        //Export button event -  save DS as XML file.
+        private void button_Export_Click(object sender, EventArgs e)
+        {
+            Global.ds.WriteXml(@"C:\Users\quant\Desktop\\gym.xml");
         }
 
         //Exit button event - This event close the application.
@@ -136,5 +145,6 @@ namespace MyGYM
         {
             Application.Exit();
         }
+
     }
 }
