@@ -52,7 +52,8 @@ namespace MyGYM
             button_Weight.FillColor = Color.FromArgb(107, 145, 218);
             button_Workout.FillColor = Color.FromArgb(107, 145, 218);
             button_Members.FillColor = Color.FromArgb(107, 145, 218);
-          
+            button_LogOut.FillColor = Color.FromArgb(107, 145, 218);
+
             button_Help.FillColor = Color.FromArgb(107, 145, 218);
 
         }
@@ -68,7 +69,8 @@ namespace MyGYM
             button_Weight.FillColor = Color.FromArgb(107, 145, 218);
             button_Workout.FillColor = Color.FromArgb(107, 145, 218);
             button_Members.FillColor = Color.FromArgb(107, 145, 218);
-            
+            button_LogOut.FillColor = Color.FromArgb(107, 145, 218);
+
             button_Help.FillColor = Color.FromArgb(107, 145, 218);
         }
 
@@ -83,7 +85,8 @@ namespace MyGYM
             button_Weight.FillColor = Color.FromArgb(107, 145, 218);
             button_Workout.FillColor = Color.FromArgb(107, 145, 218);
             button_Members.FillColor = Color.FromArgb(107, 145, 218);
-          
+            button_LogOut.FillColor = Color.FromArgb(107, 145, 218);
+
             button_Help.FillColor = Color.FromArgb(107, 145, 218);
         }
 
@@ -98,7 +101,8 @@ namespace MyGYM
             button_Weight.FillColor = Color.FromArgb(107, 145, 218);
             button_Workout.FillColor = Color.FromArgb(107, 145, 218);
             button_Members.FillColor = Color.FromArgb(107, 145, 218);
-           
+            button_LogOut.FillColor = Color.FromArgb(107, 145, 218);
+
             button_Help.FillColor = Color.FromArgb(107, 145, 218);
         }
 
@@ -113,7 +117,8 @@ namespace MyGYM
             button_Weight.FillColor = Color.FromArgb(33, 71, 148);
             button_Workout.FillColor = Color.FromArgb(107, 145, 218);
             button_Members.FillColor = Color.FromArgb(107, 145, 218);
-           
+            button_LogOut.FillColor = Color.FromArgb(107, 145, 218);
+
             button_Help.FillColor = Color.FromArgb(107, 145, 218);
         }
 
@@ -128,7 +133,8 @@ namespace MyGYM
             button_Weight.FillColor = Color.FromArgb(107, 145, 218);
             button_Workout.FillColor = Color.FromArgb(33, 71, 148);
             button_Members.FillColor = Color.FromArgb(107, 145, 218);
-           
+            button_LogOut.FillColor = Color.FromArgb(107, 145, 218);
+
             button_Help.FillColor = Color.FromArgb(107, 145, 218);
         }
 
@@ -143,7 +149,8 @@ namespace MyGYM
             button_Weight.FillColor = Color.FromArgb(107, 145, 218);
             button_Workout.FillColor = Color.FromArgb(107, 145, 218);
             button_Members.FillColor = Color.FromArgb(33, 71, 148);
-          
+            button_LogOut.FillColor = Color.FromArgb(107, 145, 218);
+
             button_Help.FillColor = Color.FromArgb(107, 145, 218);
         }
 
@@ -158,8 +165,21 @@ namespace MyGYM
             button_Weight.FillColor = Color.FromArgb(107, 145, 218);
             button_Workout.FillColor = Color.FromArgb(107, 145, 218);
             button_Members.FillColor = Color.FromArgb(107, 145, 218);
-          
+            button_LogOut.FillColor = Color.FromArgb(107, 145, 218);
+
             button_Help.FillColor = Color.FromArgb(33, 71, 148);
+        }
+
+        //LogOut button event - This opens Form1 and close current Form.
+        private void button_LogOut_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var form1 = new Form1();
+            form1.Closed += (s, args) => this.Close();
+            // lambda expression. It creates a function "in place"
+            // that is called when the form2.Closed event is fired
+            form1.Show();
+
         }
 
         //Exit button event - This close the application
@@ -167,5 +187,7 @@ namespace MyGYM
         {
             Application.Exit();
         }
+
+       
     }
 }

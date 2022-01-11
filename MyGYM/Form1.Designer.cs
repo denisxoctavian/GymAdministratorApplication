@@ -345,9 +345,9 @@ namespace MyGYM
             this.label_ShortDesc.ForeColor = System.Drawing.Color.White;
             this.label_ShortDesc.Location = new System.Drawing.Point(97, 602);
             this.label_ShortDesc.Name = "label_ShortDesc";
-            this.label_ShortDesc.Size = new System.Drawing.Size(430, 19);
+            this.label_ShortDesc.Size = new System.Drawing.Size(425, 19);
             this.label_ShortDesc.TabIndex = 2;
-            this.label_ShortDesc.Text = "Manage your gym with tour tools or track your fitness journey ";
+            this.label_ShortDesc.Text = "Manage your gym with our tools or track your fitness journey ";
             // 
             // picture_Fitness
             // 

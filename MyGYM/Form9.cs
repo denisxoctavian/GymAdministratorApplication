@@ -62,7 +62,7 @@ namespace MyGYM
         //Filter combobox event - This event filter the DGV.
         private void combobox_FilterBy_SelectionChangeCommitted(object sender, EventArgs e)
         {
-            //Trainer
+            
 
 
             if (combobox_FilterBy.SelectedIndex == 0)

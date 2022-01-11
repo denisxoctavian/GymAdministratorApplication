@@ -31,51 +31,55 @@ namespace MyGYM
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.panelChildForm = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.panel_BigPanel = new System.Windows.Forms.Panel();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.picture_HomePage = new System.Windows.Forms.PictureBox();
-            this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.button_Facebook = new Guna.UI2.WinForms.Guna2Button();
             this.label_AboutUs = new System.Windows.Forms.Label();
             this.label_PageTitle = new System.Windows.Forms.Label();
-            this.panel_Menu = new Guna.UI2.WinForms.Guna2Panel();
-            this.picture_HelpIcon = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.picture_WorkoutPlansIcon = new Guna.UI2.WinForms.Guna2PictureBox();
             this.picture_IdealWeightCalculatorIcon = new Guna.UI2.WinForms.Guna2PictureBox();
             this.picture_BMICalculatorIcon = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.picture_CalorieCalculatorIcon = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picture_UserIcon = new Guna.UI2.WinForms.Guna2PictureBox();
             this.picture_HomeIcon = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.button_CalorieCalculator = new Guna.UI2.WinForms.Guna2Button();
+            this.button_Profile = new Guna.UI2.WinForms.Guna2Button();
+            this.button_Home = new Guna.UI2.WinForms.Guna2Button();
+            this.panel_Menu = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.button_LogOut = new Guna.UI2.WinForms.Guna2Button();
+            this.picture_HelpIcon = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.picture_UserIcon = new Guna.UI2.WinForms.Guna2PictureBox();
             this.button_Help = new Guna.UI2.WinForms.Guna2Button();
             this.button_Members = new Guna.UI2.WinForms.Guna2Button();
             this.button_Workout = new Guna.UI2.WinForms.Guna2Button();
             this.button_Weight = new Guna.UI2.WinForms.Guna2Button();
             this.button_BMICalculator = new Guna.UI2.WinForms.Guna2Button();
-            this.button_CalorieCalculator = new Guna.UI2.WinForms.Guna2Button();
-            this.button_Profile = new Guna.UI2.WinForms.Guna2Button();
-            this.button_Home = new Guna.UI2.WinForms.Guna2Button();
             this.panelChildForm.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
+            this.panel_BigPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picture_HomePage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
-            this.panel_Menu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picture_HelpIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture_WorkoutPlansIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture_IdealWeightCalculatorIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture_BMICalculatorIcon)).BeginInit();
+            this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture_CalorieCalculatorIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picture_UserIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture_HomeIcon)).BeginInit();
+            this.panel_Menu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_HelpIcon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_UserIcon)).BeginInit();
             this.SuspendLayout();
             // 
             // panelChildForm
             // 
             this.panelChildForm.BackColor = System.Drawing.Color.White;
-            this.panelChildForm.Controls.Add(this.guna2Panel1);
-            this.panelChildForm.Controls.Add(this.panel_Menu);
+            this.panelChildForm.Controls.Add(this.panel_BigPanel);
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildForm.Location = new System.Drawing.Point(0, 0);
             this.panelChildForm.Name = "panelChildForm";
@@ -83,22 +87,16 @@ namespace MyGYM
             this.panelChildForm.Size = new System.Drawing.Size(1280, 720);
             this.panelChildForm.TabIndex = 0;
             // 
-            // guna2Panel1
+            // panel_BigPanel
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel1.Controls.Add(this.guna2ControlBox2);
-            this.guna2Panel1.Controls.Add(this.guna2Separator1);
-            this.guna2Panel1.Controls.Add(this.picture_HomePage);
-            this.guna2Panel1.Controls.Add(this.guna2PictureBox10);
-            this.guna2Panel1.Controls.Add(this.button_Facebook);
-            this.guna2Panel1.Controls.Add(this.label_AboutUs);
-            this.guna2Panel1.Controls.Add(this.label_PageTitle);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.guna2Panel1.Location = new System.Drawing.Point(208, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(1072, 720);
-            this.guna2Panel1.TabIndex = 1;
+            this.panel_BigPanel.BackColor = System.Drawing.Color.Transparent;
+            this.panel_BigPanel.Controls.Add(this.guna2Panel1);
+            this.panel_BigPanel.Controls.Add(this.panel_Menu);
+            this.panel_BigPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_BigPanel.Location = new System.Drawing.Point(0, 0);
+            this.panel_BigPanel.Name = "panel_BigPanel";
+            this.panel_BigPanel.Size = new System.Drawing.Size(1280, 720);
+            this.panel_BigPanel.TabIndex = 0;
             // 
             // guna2ControlBox2
             // 
@@ -114,13 +112,6 @@ namespace MyGYM
             this.guna2ControlBox2.TabIndex = 63;
             this.guna2ControlBox2.Click += new System.EventHandler(this.guna2ControlBox2_Click);
             // 
-            // guna2Separator1
-            // 
-            this.guna2Separator1.Location = new System.Drawing.Point(21, 135);
-            this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(459, 10);
-            this.guna2Separator1.TabIndex = 21;
-            // 
             // picture_HomePage
             // 
             this.picture_HomePage.Image = global::MyGYM.Properties.Resources._5755636;
@@ -130,18 +121,6 @@ namespace MyGYM
             this.picture_HomePage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picture_HomePage.TabIndex = 20;
             this.picture_HomePage.TabStop = false;
-            // 
-            // guna2PictureBox10
-            // 
-            this.guna2PictureBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(84)))), ((int)(((byte)(180)))));
-            this.guna2PictureBox10.Image = global::MyGYM.Properties.Resources.icons8_facebook_48;
-            this.guna2PictureBox10.Location = new System.Drawing.Point(62, 445);
-            this.guna2PictureBox10.Name = "guna2PictureBox10";
-            this.guna2PictureBox10.ShadowDecoration.Parent = this.guna2PictureBox10;
-            this.guna2PictureBox10.Size = new System.Drawing.Size(38, 33);
-            this.guna2PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox10.TabIndex = 19;
-            this.guna2PictureBox10.TabStop = false;
             // 
             // button_Facebook
             // 
@@ -180,44 +159,6 @@ namespace MyGYM
             this.label_PageTitle.Size = new System.Drawing.Size(390, 67);
             this.label_PageTitle.TabIndex = 0;
             this.label_PageTitle.Text = "WHO ARE WE?";
-            // 
-            // panel_Menu
-            // 
-            this.panel_Menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(145)))), ((int)(((byte)(218)))));
-            this.panel_Menu.Controls.Add(this.picture_HelpIcon);
-            this.panel_Menu.Controls.Add(this.guna2PictureBox6);
-            this.panel_Menu.Controls.Add(this.picture_WorkoutPlansIcon);
-            this.panel_Menu.Controls.Add(this.picture_IdealWeightCalculatorIcon);
-            this.panel_Menu.Controls.Add(this.picture_BMICalculatorIcon);
-            this.panel_Menu.Controls.Add(this.picture_CalorieCalculatorIcon);
-            this.panel_Menu.Controls.Add(this.picture_UserIcon);
-            this.panel_Menu.Controls.Add(this.picture_HomeIcon);
-            this.panel_Menu.Controls.Add(this.button_Help);
-            this.panel_Menu.Controls.Add(this.button_Members);
-            this.panel_Menu.Controls.Add(this.button_Workout);
-            this.panel_Menu.Controls.Add(this.button_Weight);
-            this.panel_Menu.Controls.Add(this.button_BMICalculator);
-            this.panel_Menu.Controls.Add(this.button_CalorieCalculator);
-            this.panel_Menu.Controls.Add(this.button_Profile);
-            this.panel_Menu.Controls.Add(this.button_Home);
-            this.panel_Menu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel_Menu.Location = new System.Drawing.Point(0, 0);
-            this.panel_Menu.Name = "panel_Menu";
-            this.panel_Menu.ShadowDecoration.Parent = this.panel_Menu;
-            this.panel_Menu.Size = new System.Drawing.Size(207, 720);
-            this.panel_Menu.TabIndex = 0;
-            // 
-            // picture_HelpIcon
-            // 
-            this.picture_HelpIcon.BackColor = System.Drawing.Color.Transparent;
-            this.picture_HelpIcon.Image = global::MyGYM.Properties.Resources.question;
-            this.picture_HelpIcon.Location = new System.Drawing.Point(3, 684);
-            this.picture_HelpIcon.Name = "picture_HelpIcon";
-            this.picture_HelpIcon.ShadowDecoration.Parent = this.picture_HelpIcon;
-            this.picture_HelpIcon.Size = new System.Drawing.Size(25, 30);
-            this.picture_HelpIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picture_HelpIcon.TabIndex = 18;
-            this.picture_HelpIcon.TabStop = false;
             // 
             // guna2PictureBox6
             // 
@@ -267,6 +208,42 @@ namespace MyGYM
             this.picture_BMICalculatorIcon.TabIndex = 13;
             this.picture_BMICalculatorIcon.TabStop = false;
             // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel1.Controls.Add(this.guna2ControlBox2);
+            this.guna2Panel1.Controls.Add(this.guna2Separator1);
+            this.guna2Panel1.Controls.Add(this.picture_HomePage);
+            this.guna2Panel1.Controls.Add(this.guna2PictureBox10);
+            this.guna2Panel1.Controls.Add(this.button_Facebook);
+            this.guna2Panel1.Controls.Add(this.label_AboutUs);
+            this.guna2Panel1.Controls.Add(this.label_PageTitle);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.guna2Panel1.Location = new System.Drawing.Point(208, 0);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
+            this.guna2Panel1.Size = new System.Drawing.Size(1072, 720);
+            this.guna2Panel1.TabIndex = 3;
+            // 
+            // guna2Separator1
+            // 
+            this.guna2Separator1.Location = new System.Drawing.Point(21, 135);
+            this.guna2Separator1.Name = "guna2Separator1";
+            this.guna2Separator1.Size = new System.Drawing.Size(459, 10);
+            this.guna2Separator1.TabIndex = 21;
+            // 
+            // guna2PictureBox10
+            // 
+            this.guna2PictureBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(84)))), ((int)(((byte)(180)))));
+            this.guna2PictureBox10.Image = global::MyGYM.Properties.Resources.icons8_facebook_48;
+            this.guna2PictureBox10.Location = new System.Drawing.Point(62, 445);
+            this.guna2PictureBox10.Name = "guna2PictureBox10";
+            this.guna2PictureBox10.ShadowDecoration.Parent = this.guna2PictureBox10;
+            this.guna2PictureBox10.Size = new System.Drawing.Size(38, 33);
+            this.guna2PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox10.TabIndex = 19;
+            this.guna2PictureBox10.TabStop = false;
+            // 
             // picture_CalorieCalculatorIcon
             // 
             this.picture_CalorieCalculatorIcon.BackColor = System.Drawing.Color.Transparent;
@@ -279,18 +256,6 @@ namespace MyGYM
             this.picture_CalorieCalculatorIcon.TabIndex = 12;
             this.picture_CalorieCalculatorIcon.TabStop = false;
             // 
-            // picture_UserIcon
-            // 
-            this.picture_UserIcon.BackColor = System.Drawing.Color.Transparent;
-            this.picture_UserIcon.Image = global::MyGYM.Properties.Resources.user1;
-            this.picture_UserIcon.Location = new System.Drawing.Point(3, 51);
-            this.picture_UserIcon.Name = "picture_UserIcon";
-            this.picture_UserIcon.ShadowDecoration.Parent = this.picture_UserIcon;
-            this.picture_UserIcon.Size = new System.Drawing.Size(25, 30);
-            this.picture_UserIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picture_UserIcon.TabIndex = 11;
-            this.picture_UserIcon.TabStop = false;
-            // 
             // picture_HomeIcon
             // 
             this.picture_HomeIcon.BackColor = System.Drawing.Color.Transparent;
@@ -302,6 +267,138 @@ namespace MyGYM
             this.picture_HomeIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picture_HomeIcon.TabIndex = 10;
             this.picture_HomeIcon.TabStop = false;
+            // 
+            // button_CalorieCalculator
+            // 
+            this.button_CalorieCalculator.CheckedState.Parent = this.button_CalorieCalculator;
+            this.button_CalorieCalculator.CustomImages.Parent = this.button_CalorieCalculator;
+            this.button_CalorieCalculator.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button_CalorieCalculator.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(145)))), ((int)(((byte)(218)))));
+            this.button_CalorieCalculator.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.button_CalorieCalculator.ForeColor = System.Drawing.Color.White;
+            this.button_CalorieCalculator.HoverState.Parent = this.button_CalorieCalculator;
+            this.button_CalorieCalculator.Location = new System.Drawing.Point(0, 90);
+            this.button_CalorieCalculator.Name = "button_CalorieCalculator";
+            this.button_CalorieCalculator.ShadowDecoration.Parent = this.button_CalorieCalculator;
+            this.button_CalorieCalculator.Size = new System.Drawing.Size(207, 45);
+            this.button_CalorieCalculator.TabIndex = 2;
+            this.button_CalorieCalculator.Text = "Calorie Calculator";
+            this.button_CalorieCalculator.Click += new System.EventHandler(this.button_CalorieCalculator_Click);
+            // 
+            // button_Profile
+            // 
+            this.button_Profile.CheckedState.Parent = this.button_Profile;
+            this.button_Profile.CustomImages.Parent = this.button_Profile;
+            this.button_Profile.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button_Profile.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(145)))), ((int)(((byte)(218)))));
+            this.button_Profile.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.button_Profile.ForeColor = System.Drawing.Color.White;
+            this.button_Profile.HoverState.Parent = this.button_Profile;
+            this.button_Profile.Location = new System.Drawing.Point(0, 45);
+            this.button_Profile.Name = "button_Profile";
+            this.button_Profile.ShadowDecoration.Parent = this.button_Profile;
+            this.button_Profile.Size = new System.Drawing.Size(207, 45);
+            this.button_Profile.TabIndex = 1;
+            this.button_Profile.Text = "Profile";
+            this.button_Profile.Click += new System.EventHandler(this.button_Profile_Click);
+            // 
+            // button_Home
+            // 
+            this.button_Home.CheckedState.Parent = this.button_Home;
+            this.button_Home.CustomImages.Parent = this.button_Home;
+            this.button_Home.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button_Home.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(145)))), ((int)(((byte)(218)))));
+            this.button_Home.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.button_Home.ForeColor = System.Drawing.Color.White;
+            this.button_Home.HoverState.Parent = this.button_Home;
+            this.button_Home.Location = new System.Drawing.Point(0, 0);
+            this.button_Home.Name = "button_Home";
+            this.button_Home.ShadowDecoration.Parent = this.button_Home;
+            this.button_Home.Size = new System.Drawing.Size(207, 45);
+            this.button_Home.TabIndex = 0;
+            this.button_Home.Text = "Home";
+            this.button_Home.Click += new System.EventHandler(this.button_Home_Click);
+            // 
+            // panel_Menu
+            // 
+            this.panel_Menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(145)))), ((int)(((byte)(218)))));
+            this.panel_Menu.Controls.Add(this.guna2PictureBox1);
+            this.panel_Menu.Controls.Add(this.button_LogOut);
+            this.panel_Menu.Controls.Add(this.picture_HelpIcon);
+            this.panel_Menu.Controls.Add(this.guna2PictureBox6);
+            this.panel_Menu.Controls.Add(this.picture_WorkoutPlansIcon);
+            this.panel_Menu.Controls.Add(this.picture_IdealWeightCalculatorIcon);
+            this.panel_Menu.Controls.Add(this.picture_BMICalculatorIcon);
+            this.panel_Menu.Controls.Add(this.picture_CalorieCalculatorIcon);
+            this.panel_Menu.Controls.Add(this.picture_UserIcon);
+            this.panel_Menu.Controls.Add(this.picture_HomeIcon);
+            this.panel_Menu.Controls.Add(this.button_Help);
+            this.panel_Menu.Controls.Add(this.button_Members);
+            this.panel_Menu.Controls.Add(this.button_Workout);
+            this.panel_Menu.Controls.Add(this.button_Weight);
+            this.panel_Menu.Controls.Add(this.button_BMICalculator);
+            this.panel_Menu.Controls.Add(this.button_CalorieCalculator);
+            this.panel_Menu.Controls.Add(this.button_Profile);
+            this.panel_Menu.Controls.Add(this.button_Home);
+            this.panel_Menu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel_Menu.Location = new System.Drawing.Point(0, 0);
+            this.panel_Menu.Name = "panel_Menu";
+            this.panel_Menu.ShadowDecoration.Parent = this.panel_Menu;
+            this.panel_Menu.Size = new System.Drawing.Size(207, 720);
+            this.panel_Menu.TabIndex = 2;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::MyGYM.Properties.Resources.logout;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(3, 639);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(25, 30);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 20;
+            this.guna2PictureBox1.TabStop = false;
+            // 
+            // button_LogOut
+            // 
+            this.button_LogOut.CheckedState.Parent = this.button_LogOut;
+            this.button_LogOut.CustomImages.Parent = this.button_LogOut;
+            this.button_LogOut.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.button_LogOut.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(145)))), ((int)(((byte)(218)))));
+            this.button_LogOut.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.button_LogOut.ForeColor = System.Drawing.Color.White;
+            this.button_LogOut.HoverState.Parent = this.button_LogOut;
+            this.button_LogOut.Location = new System.Drawing.Point(0, 630);
+            this.button_LogOut.Name = "button_LogOut";
+            this.button_LogOut.ShadowDecoration.Parent = this.button_LogOut;
+            this.button_LogOut.Size = new System.Drawing.Size(207, 45);
+            this.button_LogOut.TabIndex = 19;
+            this.button_LogOut.Text = "Logout";
+            this.button_LogOut.Click += new System.EventHandler(this.button_LogOut_Click);
+            // 
+            // picture_HelpIcon
+            // 
+            this.picture_HelpIcon.BackColor = System.Drawing.Color.Transparent;
+            this.picture_HelpIcon.Image = global::MyGYM.Properties.Resources.question;
+            this.picture_HelpIcon.Location = new System.Drawing.Point(3, 684);
+            this.picture_HelpIcon.Name = "picture_HelpIcon";
+            this.picture_HelpIcon.ShadowDecoration.Parent = this.picture_HelpIcon;
+            this.picture_HelpIcon.Size = new System.Drawing.Size(25, 30);
+            this.picture_HelpIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picture_HelpIcon.TabIndex = 18;
+            this.picture_HelpIcon.TabStop = false;
+            // 
+            // picture_UserIcon
+            // 
+            this.picture_UserIcon.BackColor = System.Drawing.Color.Transparent;
+            this.picture_UserIcon.Image = global::MyGYM.Properties.Resources.user1;
+            this.picture_UserIcon.Location = new System.Drawing.Point(3, 51);
+            this.picture_UserIcon.Name = "picture_UserIcon";
+            this.picture_UserIcon.ShadowDecoration.Parent = this.picture_UserIcon;
+            this.picture_UserIcon.Size = new System.Drawing.Size(25, 30);
+            this.picture_UserIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picture_UserIcon.TabIndex = 11;
+            this.picture_UserIcon.TabStop = false;
             // 
             // button_Help
             // 
@@ -388,57 +485,6 @@ namespace MyGYM
             this.button_BMICalculator.Text = "BMI Calculator";
             this.button_BMICalculator.Click += new System.EventHandler(this.button_BMICalculator_Click);
             // 
-            // button_CalorieCalculator
-            // 
-            this.button_CalorieCalculator.CheckedState.Parent = this.button_CalorieCalculator;
-            this.button_CalorieCalculator.CustomImages.Parent = this.button_CalorieCalculator;
-            this.button_CalorieCalculator.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button_CalorieCalculator.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(145)))), ((int)(((byte)(218)))));
-            this.button_CalorieCalculator.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.button_CalorieCalculator.ForeColor = System.Drawing.Color.White;
-            this.button_CalorieCalculator.HoverState.Parent = this.button_CalorieCalculator;
-            this.button_CalorieCalculator.Location = new System.Drawing.Point(0, 90);
-            this.button_CalorieCalculator.Name = "button_CalorieCalculator";
-            this.button_CalorieCalculator.ShadowDecoration.Parent = this.button_CalorieCalculator;
-            this.button_CalorieCalculator.Size = new System.Drawing.Size(207, 45);
-            this.button_CalorieCalculator.TabIndex = 2;
-            this.button_CalorieCalculator.Text = "Calorie Calculator";
-            this.button_CalorieCalculator.Click += new System.EventHandler(this.button_CalorieCalculator_Click);
-            // 
-            // button_Profile
-            // 
-            this.button_Profile.CheckedState.Parent = this.button_Profile;
-            this.button_Profile.CustomImages.Parent = this.button_Profile;
-            this.button_Profile.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button_Profile.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(145)))), ((int)(((byte)(218)))));
-            this.button_Profile.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.button_Profile.ForeColor = System.Drawing.Color.White;
-            this.button_Profile.HoverState.Parent = this.button_Profile;
-            this.button_Profile.Location = new System.Drawing.Point(0, 45);
-            this.button_Profile.Name = "button_Profile";
-            this.button_Profile.ShadowDecoration.Parent = this.button_Profile;
-            this.button_Profile.Size = new System.Drawing.Size(207, 45);
-            this.button_Profile.TabIndex = 1;
-            this.button_Profile.Text = "Profile";
-            this.button_Profile.Click += new System.EventHandler(this.button_Profile_Click);
-            // 
-            // button_Home
-            // 
-            this.button_Home.CheckedState.Parent = this.button_Home;
-            this.button_Home.CustomImages.Parent = this.button_Home;
-            this.button_Home.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button_Home.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(145)))), ((int)(((byte)(218)))));
-            this.button_Home.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.button_Home.ForeColor = System.Drawing.Color.White;
-            this.button_Home.HoverState.Parent = this.button_Home;
-            this.button_Home.Location = new System.Drawing.Point(0, 0);
-            this.button_Home.Name = "button_Home";
-            this.button_Home.ShadowDecoration.Parent = this.button_Home;
-            this.button_Home.Size = new System.Drawing.Size(207, 45);
-            this.button_Home.TabIndex = 0;
-            this.button_Home.Text = "Home";
-            this.button_Home.Click += new System.EventHandler(this.button_Home_Click);
-            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -449,19 +495,21 @@ namespace MyGYM
             this.Name = "Form3";
             this.Text = "Form3";
             this.panelChildForm.ResumeLayout(false);
-            this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel1.PerformLayout();
+            this.panel_BigPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picture_HomePage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
-            this.panel_Menu.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picture_HelpIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture_WorkoutPlansIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture_IdealWeightCalculatorIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture_BMICalculatorIcon)).EndInit();
+            this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture_CalorieCalculatorIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picture_UserIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture_HomeIcon)).EndInit();
+            this.panel_Menu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_HelpIcon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_UserIcon)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -469,17 +517,18 @@ namespace MyGYM
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel panelChildForm;
+        private System.Windows.Forms.Panel panel_BigPanel;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
+        private System.Windows.Forms.PictureBox picture_HomePage;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox10;
+        private Guna.UI2.WinForms.Guna2Button button_Facebook;
+        private System.Windows.Forms.Label label_AboutUs;
+        private System.Windows.Forms.Label label_PageTitle;
         private Guna.UI2.WinForms.Guna2Panel panel_Menu;
-        private Guna.UI2.WinForms.Guna2Button button_Workout;
-        private Guna.UI2.WinForms.Guna2Button button_Weight;
-        private Guna.UI2.WinForms.Guna2Button button_BMICalculator;
-        private Guna.UI2.WinForms.Guna2Button button_CalorieCalculator;
-        private Guna.UI2.WinForms.Guna2Button button_Profile;
-        private Guna.UI2.WinForms.Guna2Button button_Home;
-        private Guna.UI2.WinForms.Guna2Button button_Members;
-        private Guna.UI2.WinForms.Guna2Button button_Help;
-        private Guna.UI2.WinForms.Guna2PictureBox picture_HomeIcon;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI2.WinForms.Guna2Button button_LogOut;
         private Guna.UI2.WinForms.Guna2PictureBox picture_HelpIcon;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox6;
         private Guna.UI2.WinForms.Guna2PictureBox picture_WorkoutPlansIcon;
@@ -487,12 +536,14 @@ namespace MyGYM
         private Guna.UI2.WinForms.Guna2PictureBox picture_BMICalculatorIcon;
         private Guna.UI2.WinForms.Guna2PictureBox picture_CalorieCalculatorIcon;
         private Guna.UI2.WinForms.Guna2PictureBox picture_UserIcon;
-        private System.Windows.Forms.Label label_PageTitle;
-        private System.Windows.Forms.Label label_AboutUs;
-        private Guna.UI2.WinForms.Guna2Button button_Facebook;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox10;
-        private System.Windows.Forms.PictureBox picture_HomePage;
-        private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
+        private Guna.UI2.WinForms.Guna2PictureBox picture_HomeIcon;
+        private Guna.UI2.WinForms.Guna2Button button_Help;
+        private Guna.UI2.WinForms.Guna2Button button_Members;
+        private Guna.UI2.WinForms.Guna2Button button_Workout;
+        private Guna.UI2.WinForms.Guna2Button button_Weight;
+        private Guna.UI2.WinForms.Guna2Button button_BMICalculator;
+        private Guna.UI2.WinForms.Guna2Button button_CalorieCalculator;
+        private Guna.UI2.WinForms.Guna2Button button_Profile;
+        private Guna.UI2.WinForms.Guna2Button button_Home;
     }
 }

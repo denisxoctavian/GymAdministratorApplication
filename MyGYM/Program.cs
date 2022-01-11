@@ -35,6 +35,7 @@ namespace MyGYM
         public static DataSet ds;
         public static SqlCommandBuilder cb;
 
+
         //Logged User Account Informations.
         public static int logged_id;
         public static string logged_first_name;
